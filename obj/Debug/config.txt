@@ -1,0 +1,11 @@
+//ATTENTION: ANY WHITESPACE/INCORRECT ENTRIES WILL BREAK YOUR CONFIG (I'll add a config checker at some point)
+//Bot Twitch account name--Twitch account name for the bot's account
+//Your Twitch IRC chat channel--Your Twitch account username Example: your_twitch_username
+//Twitch OAuth password--Your Twitch OAuth password (without whitspace). If you need a new one, get it from http://www.twitchapps.com/tmi
+//Banned word chat suspend--Amount of time to ban users from chat when they use a banned word, default is 10
+//Infractions before chat ban--Amount of temporary bans before a user is perma-banned, default is 3
+lunamoonkitteh
+comrade_nekobear
+oauth:4tutu988r408a5hrdt1i11crt868ft
+10
+3

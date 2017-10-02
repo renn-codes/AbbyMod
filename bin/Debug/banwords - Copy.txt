@@ -1,0 +1,15 @@
+//Do not remove this, this will catch words banned by Twitch's ban filter
+***
+//Enter banned words below
+fag
+faggot
+homo
+tranny
+tranie
+trannei
+tranni
+trannee
+faggy
+fagbag
+lesbo
+lezzy

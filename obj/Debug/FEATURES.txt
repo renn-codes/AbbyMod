@@ -1,0 +1,16 @@
+ -----====++====-----
+|| AbbyMod Beta 420 ||
+ -----====++====-----
+    f e a t u r e s
+
+++b420++ Added the ability to be noticed by Chica-senpai
+
+++b2++ Uses the 'standard' IRC bot !command syntact
+
+++b2++ Scans chat for a configurable set of words, then will timout and eventually ban users after a configurable set of infractions. The infractions persist from launch to launch, so users who have previous offenses still rack up infractions and get eventully banned.
+
+++b2++ Ability to add words to the ban word database from Twitch chat. These are saved across launches.
+
+++b2++ Greets users who enter the stream (Greeting not yet configurable, although this is a high priority feature on the roadmap).
+
+++b2++ Greets you after you say "hello bot" to it (will eventually remove for spam protection).

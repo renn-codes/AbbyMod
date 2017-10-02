@@ -1,0 +1,59 @@
+ -----====++====-----
+|| AbbyMod Beta 420 ||
+ -----====++====-----
+      s e t u p
+
+Please read this entire file before continuing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+It will help ensure you run into fewer, if no, issues setting up AbbyMod =^,^=
+
+VIDEO_TUTORiAL_COMING_SOON
+
+You should have the following files from this archive present in this folder:
+AbbyMod.exe		- The bot
+SETUP.txt		- This file
+FEATURES.txt		- Feature list and changelog for the AbbyMod bot
+CMDLIST.txt		- Reference file of the commands for the AbbyMod bot
+config.txt		- The bot core config
+config.default.txt	- A backup of the default config (in case you broke/need to redo your config
+banwords.txt		- Database of words to ban in Twitch chat. You can manually edit this if you want to,
+			  just make sure there is no whitespace or empty lines or it will break your database.
+warnlist.txt		- Persistance database for chat infractions. I will make documantation on this in the
+ 			  future, for now, don't edit it.
+
+First off, you need to create a second Twitch.tv account for the bot. The username of the account will be the name you want your bot to be called, so use whatever you want (as long as it's available). Then with that account logged in, go to http://www.twitchapps.com/tmi and generate a oauth password. Remember to do this only once, as each new one you create invalidates the previous ones. Also make a note of the oauth (write it on a sticky note, make a txt file with it, tattoo it on your cat's tail, whatever works for you) as you'll need it for that reason in case you need to redo your config.
+
+After this, open your config.txt file. It should look somethin like this if it's your first time editing it:
+
+//ATTENTION: ANY WHITESPACE/INCORRECT ENTRIES WILL BREAK YOUR CONFIG (I'll add a config checker at some point)
+//Bot Twitch account name--Twitch account name for the bot's account
+//Your Twitch IRC chat channel--Your Twitch account username with '#' before it. Example: #your_twitch_username
+//Twitch OAuth password--Your Twitch OAuth password (without whitspace). If you need a new one, get it from http://www.twitchapps.com/tmi
+//Banned word chat suspend--Amount of time to ban users from chat when they use a banned word, default is 10
+//Infractions before chat ban--Amount of temporary bans before a user is perma-banned, default is 3
+bot_user_name
+your_user_name
+oauth:password
+10
+3
+
+Change the bot_user_name to the login for the bot's Twitch account you just created, and change the oauth to the one you generated for that account. Make sure there are no spaces before or after it, or it wont be able to login.
+
+Next, change your_user_name to your channel's login name (the one you're broadcasting to). This is so the bot knows where to lurk around in =^.^=
+
+Th next two numbers control amount of time in minutes a user is suspended from chatting for using banned words, and the amount of 'infractions' it takes before the user is banned (respectively). So, the way it is currently set by default, a user will be suspended for 10 minutes the first two times they use a banned word, then banned after the third time.
+
+If for some reason your config get's messed up or your bot stops launching, delete the "config.txt" and then make a *copy* the "config.default.txt" to this folder and rename it to "config.txt" You'll have to re-enter your config (including your oauth password for the bot's Twitch account, so again make a note of it for future use!), but it should fix most issues the bot will run into.
+
+Then double click "AbbyMod.exe" to run the bot, if it sucessfully connects, it will take a minute or two to appear in your channel. Once it does, type the command "/mod bot_name", where bot_name is the name of the bot's Twitch account in your config to give it moderator privilages. It will take a few minutes for this to go into effect. When you're ready to stop the bot, type "!quit" in your Twitch chat to properly shutdown the bot, then after the bot's console windows confirms it shutdown, you can close the bot's window.
+
+See:
+	"FEATURES.txt" for a complete feature breakdown.
+	"COMMANDS.txt" for what commands the bot has and wht they do
+	"banner.png" is the amazeballs banner that you can use in your channel if you decide to test/use my bot <3
+
+Thanks for testing and using AbbyMod! Please do not distribute outside of the users in this Facebook group, and report any bugs/issues/crashes you may happen upon during use with any onfo on what you were doing with the bot when it crashed. Happy gaming!
+
+	- Comrade_Nekobear
+	  http://www.twitch.tv/comrade_nekobear
+	  http://www.facebook.com/groups/AbbyMod/
